@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body bgcolor="teal">
+<center>
+<h2><font color="white"><u><b>REGISTRATION FORM</b></u></font></h2>
+<h3>Fill the following fields:</h3>
+<form>
+<table>
+    <tr>
+        <th>Name</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td>
+            <input type ="text" name="firstname" value="" placeholder="First">
+            <input type ="text" name="middlename" value="" placeholder="Middle">
+            <input type ="text" name="lastname" value="" placeholder="Last">
+        </td>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td><textarea placeholder="Address" name="Address" id="" cols="60" rows="4"></textarea></td>
+
+    </tr>
+    <tr>
+        <th>Gender</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td>Male<input type="radio" name="gender" value="male"> Female<input type="radio" name="gender" value="female"></td>
+
+    </tr>
+    <tr>
+        <th>Date of Birth</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td><input type="date" name="dob" id="dob"></td>
+
+    </tr>
+    <tr>
+        <th>Qualification</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td><select name="qualification" id="stud" placeholder="select">
+            <option value="" selected>Select your option</option>
+            <option value="mca">Master of Computer Applications</option>
+            <option value="msc">Master of Computer Science</option>
+            <option value="bca">Bachelor of Computer Applications</option>
+            <option value="bsc">Bachelor of Computer Science</option>
+            </select>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Area of Expertise</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td>
+            Web Development<input type="checkbox" name="wd" value="webdev">&nbsp;
+            Software Engineering<input type="checkbox" name="se" value="swdev">&nbsp;
+            Mobile App Development<input type="checkbox" name="mobdev" value="mobappdev">
+        </td>
+     <tr>
+        <th>Languages Spoken</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td>
+            English<input type="checkbox" name="english" value="English">&nbsp;
+            Hindi<input type="checkbox" name="hindi" value="Hindi">&nbsp;
+            Malayalam<input type="checkbox" name="malayalam" value="Malayalam">&nbsp;
+            Tamil<input type="checkbox" name="tamil" value="Tamil">&nbsp;
+            Kannada<input type="checkbox" name="kannada" value="Kannada">&nbsp;
+        </td>
+
+    </tr>
+    <tr>
+        <th>Phone</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td><input type="number" name="phone" id="phoneno" placeholder="Phone Number"></td>
+
+    </tr>
+    <tr>
+        <th>Email ID</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td><input type="email" name="email" id="mail" placeholder="abc@domain.com"></td>
+
+    </tr>
+    <tr>
+        <th>Resume</th>
+        <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+        <td colspan="2"><input type="file" name="resume" id="resume"></td>
+
+    </tr>
+    <tr>
+        <th></th>
+        <td></td>
+        <td><input type="reset" value="Reset">&nbsp;<input type="submit" value="Submit"></td>
+
+    </tr>
+</table>
+</form>
+</center>
+</body>
+</html>
